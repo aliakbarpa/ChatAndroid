@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myproject.aliakbar.androidcirclemenu.FacebookActivity"
+    android:layout_gravity="center_horizontal"
+    android:background= "@drawable/new_login_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="25dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_facebook_one"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="AliChat >> endless chatting"
+        android:clickable="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+
+        />
+    <!--ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/humming_bird_flying_flower_animation_clipart"
+        /!-->
+
+</LinearLayout>
+
+</LinearLayout>
